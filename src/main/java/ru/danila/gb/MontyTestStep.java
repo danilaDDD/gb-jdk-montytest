@@ -15,4 +15,8 @@ public class MontyTestStep {
     private int presenterChoiceIndex;
     private boolean playerWon;
     private boolean agreePresentChoice;
+
+    public MontyTestStep(List<Choice> variants, int playerChoiceIndex, boolean playerWon, boolean agreePresentChoice) {
+       this(variants, playerChoiceIndex, -1, playerWon, agreePresentChoice);
+    }
 }

@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48dbfc34-c8b6-4786-a549-532039b71194" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="48dbfc34-c8b6-4786-a549-532039b71194" name="Changes" comment="realize">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/danila/gb/AllMontyGameVariantsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/AllMontyGameVariantsThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/danila/gb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724939779529</updated>
-      <workItem from="1724939780725" duration="12510000" />
+      <workItem from="1724939780725" duration="13713000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -134,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724950489786</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="realize">
+      <option name="closed" value="true" />
+      <created>1724952694534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724952694534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="realize">
+      <option name="closed" value="true" />
+      <created>1724952814228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724952814228</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="realize" />
+    <option name="LAST_COMMIT_MESSAGE" value="realize" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [

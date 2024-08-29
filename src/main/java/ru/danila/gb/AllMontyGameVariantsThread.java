@@ -19,15 +19,21 @@ public class AllMontyGameVariantsThread extends Thread{
 
     @Override
     public void run() {
+        boolean agreePresentChoice = false;
         for (int i = 0; i < variants.size(); i++) {
-            for (int j = 0; j < variants.size(); j++) {
-                Choice playerChoice = variants.get(i);
-                Choice presenterChoice = variants.get(j);
+            boolean win = variants.get(i) == Choice.AUTO;
+            testSteps.add(new MontyTestStep(variants, i, win, agreePresentChoice));
+        }
 
-                if(presenterChoice != playerChoice && presenterChoice != Choice.AUTO){
+        agreePresentChoice = true;
+        for (int playerChoiceIndex = 0; playerChoiceIndex < variants.size(); playerChoiceIndex++) {
+            for (int presentChoiceIndex = 0; presentChoiceIndex < variants.size(); presentChoiceIndex++) {
+                Choice playerChoice = variants.get(playerChoiceIndex);
+                Choice presenterChoice = variants.get(presentChoiceIndex);
+
+                if(playerChoiceIndex != presentChoiceIndex && presenterChoice != Choice.AUTO){
                     boolean win = playerChoice == Choice.AUTO;
-                    testSteps.add(new MontyTestStep(variants, i, j, win, true));
-                    testSteps.add(new MontyTestStep(variants, i, j, win, false));
+                    testSteps.add(new MontyTestStep(variants, playerChoiceIndex, presentChoiceIndex, win, agreePresentChoice));
                 }
             }
         }
