@@ -27,7 +27,8 @@ public class AllMontyGameVariantsThread extends Thread{
 
                 if(presenterChoice != playerChoice && presenterChoice != Choice.AUTO){
                     boolean win = playerChoice == Choice.AUTO;
-                    testSteps.add(new MontyTestStep(variants, i, j, win));
+                    testSteps.add(new MontyTestStep(variants, i, j, win, true));
+                    testSteps.add(new MontyTestStep(variants, i, j, win, false));
                 }
             }
         }

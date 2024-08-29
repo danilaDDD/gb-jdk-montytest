@@ -19,6 +19,29 @@ public class MontyTestLauncher extends Thread{
         Set<List<Choice>> choiceCombineSet = Collections.synchronizedSet(new HashSet<>());
         choiceCombineSet.addAll(Collections2.permutations(startCombine));
         // счетаем варианты для каждого варианта игры параллельно в отдельном потоке
+        Map<Integer, MontyTestStep> stepToTest = calcAllCombinesGames(choiceCombineSet);
+        int countWinWithPlayerChoice = 0;
+        int countWinWithPresentChoice = 0;
+
+        for(var entry: stepToTest.entrySet()){
+            MontyTestStep testStep = entry.getValue();
+            System.out.println(String.format("step: %s, result: %s", entry.getKey(), testStep));
+
+            if(testStep.isPlayerWon() && !testStep.isAgreePresentChoice()){
+                countWinWithPlayerChoice++;
+            } else if (testStep.isPlayerWon() && testStep.isAgreePresentChoice()) {
+                countWinWithPresentChoice++;
+            }
+        }
+
+        double allCount = (double)stepToTest.size();
+        System.out.println(String.format("вероятность выигроша при выборе игроком: %s", countWinWithPlayerChoice / allCount));
+        System.out.println(String.format("вероятность выигроша при выборе ведущем: %s", countWinWithPresentChoice / allCount));
+
+
+    }
+
+    private Map<Integer, MontyTestStep> calcAllCombinesGames(Set<List<Choice>> choiceCombineSet) {
         CountDownLatch cdl = new CountDownLatch(choiceCombineSet.size());
         List<AllMontyGameVariantsThread> gameThreads = new ArrayList<>();
         try {
@@ -41,6 +64,7 @@ public class MontyTestLauncher extends Thread{
             }
         }
 
+        return stepToTest;
     }
 
     private List<Choice> getStartCombine() {

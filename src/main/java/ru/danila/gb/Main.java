@@ -5,9 +5,9 @@ import com.google.common.collect.Collections2;
 import java.util.*;
 
 public class Main {
+    private static int DOOR_COUNT = 3;
     public static void main(String[] args) {
-
-        for(var perm: permutations)
-            System.out.println(perm);
+        // полный перебор всех вариантов игры
+        new MontyTestLauncher(DOOR_COUNT).start();
     }
 }
