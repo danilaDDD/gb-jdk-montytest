@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48dbfc34-c8b6-4786-a549-532039b71194" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="48dbfc34-c8b6-4786-a549-532039b71194" name="Changes" comment="initial">
       <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/AllMontyGameVariantsThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/Choice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/danila/gb/AllMontyGameVariantsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/AllMontyGameVariantsThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/danila/gb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/danila/gb/MontyTestStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +33,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1724950430" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1724950429" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -57,6 +77,7 @@
     "Maven.monty-hall-paradox [package].executor": "Run",
     "Maven.monty-hall-paradox [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "app.teamhub.trackedBranches": "",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -103,11 +124,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724939779529</updated>
-      <workItem from="1724939780725" duration="10342000" />
+      <workItem from="1724939780725" duration="12510000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1724950489776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724950489786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "branch": "main",
+      "currentBranchFilter": true
+    }
+  ],
+  "lastFilter": {
+    "branch": "main",
+    "currentBranchFilter": true
+  }
+}]]></component>
 </project>

@@ -2,7 +2,6 @@ package ru.danila.gb;
 
 import lombok.Getter;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
@@ -11,7 +10,7 @@ public class AllMontyGameVariantsThread extends Thread{
     private final List<Choice> variants;
     @Getter
     private final List<MontyTestStep> testSteps = new LinkedList<>();
-    private CountDownLatch cdl;
+    private final CountDownLatch cdl;
 
     public AllMontyGameVariantsThread(List<Choice> variants, CountDownLatch cdl) {
         this.variants = variants;

@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 
 public class MontyTestLauncher extends Thread{
-    private int choiceCount;
+    private final int choiceCount;
 
     public MontyTestLauncher(int choiceCount) {
         this.choiceCount = choiceCount;
